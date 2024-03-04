@@ -1,0 +1,6 @@
+powerApi: https://wx.uestc.edu.cn/power/oneCartoon/list
+feishuAppId: cli_a55b597ceb39100b
+feishuAppSecret: ssuperSecretString123
+verificationToken: TokennnnnnnnnnnYESItsToken
+eventKey: ThisIsTheKey
+database: powerbot.db

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Query</title>
+</head>
+<script src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/axios/0.26.0/axios.min.js"></script>
+<script>
+    const paramsStr = window.location.search;
+    const params = new URLSearchParams(paramsStr);
+    var chatId = params.get('id');
+
+    axios.get('/api/query/' + chatId).then(() => {
+        alert("OK!")
+    }).catch(() => {
+        alert("Wrong.")
+    })
+</script>
+
+</html>
